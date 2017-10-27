@@ -33,7 +33,6 @@ document.onkeyup = function(event){
                 guessed = true;
                 
             }
-
         }
         if (lettersGuessed.indexOf(key) < 0){
             if (!guessed){guessesRemaining--;}
